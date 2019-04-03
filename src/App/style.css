@@ -1,0 +1,78 @@
+*{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Germania One', sans-serif;
+}
+
+body{
+  width: 100vw;
+  margin: 0 auto;
+  background-color: #e0f7f3;
+}
+
+.App{
+  margin-top: 30px;
+}
+
+.images {
+  box-shadow: 4px 4px 5px black;
+  height: 200px;
+  width: 300px;
+}
+
+.navbar {
+  position: fixed;
+  display:flex;
+  flex: 1;
+  width: 100vw;
+  background-color: #3f644f;
+  color: white;
+  font-size: 24pt;
+  padding: 3%;
+  margin-top: -30px;
+}
+
+.episode-nav{
+  flex: 1;
+}
+
+.favorite-nav{
+  flex: 1;
+}
+
+.episode-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  margin-left: 5%;
+}
+
+.individual-episode{
+  flex: 1;
+  margin: 3%;
+  background-color: #3b3f32;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+}
+
+.footer {
+  background-color: #3f644f;
+  width: 100%;
+  color: white;
+  font-size: 14pt;
+  padding: 2%;
+}
+
+button{
+  background: #FF6542;
+  width: 70px;
+  height: 30px;
+  border: solid black 2px;
+  text-shadow: 2px 2px 2px 2px black
+}
+
+.favorites{
+  padding-top: 100px;
+}
